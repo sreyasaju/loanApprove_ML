@@ -1,1 +1,1 @@
-A ML mode (wip)
+A ML model (wip)
