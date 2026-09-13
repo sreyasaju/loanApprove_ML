@@ -26,6 +26,10 @@ loanApprove_ML is a machine learning classifier  to predict whether a loan appli
 | Logistic Regression | 89.48% | 77.18% | 74.75% | 75.95% |
 | Random Forest | 92.93% | 89.74% | 77.00% | 82.88% |
 
+### Confusion Matrix
+![Logical Regression CM](assets/confusionmatrix1.png)
+![Random Forest CM](assets/confusionmatrix2.png)
+
 
 ### Model Comparison
 
