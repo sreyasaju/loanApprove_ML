@@ -26,8 +26,19 @@ loanApprove_ML is a machine learning classifier  to predict whether a loan appli
 | Logistic Regression | 89.48% | 77.18% | 74.75% | 75.95% |
 | Random Forest | 92.93% | 89.74% | 77.00% | 82.88% |
 
-Random Forest wins on every metric, but not evenly... Precision jumps by 12.56pp while recall only moves 2.25pp. 
 
+### Model Comparison
+
+According to the results Random Forest performs better overall than the Logistic Regression model!
+
+- Accuracy: RF 92.99% vs LR 89.98%  -> **+3.01 percentage points**
+
+- Precision: RF 90.15% vs LR 78.96% -> **+11.19 pp**
+- Recall: RF 76.85% vs LR 74.85% -> **+2.00 pp**
+- F1
+-score: RF 82.97% vs LR 76.85% -> **+6.12 pp**
+
+The  greatest improvement was in precision, where Random Forest performed 11.19 pp more than logistic regression 
 Random Forest showed a larger improvement in precision than recall. This means it made fewer incorrect approval predictions, while the improvement in identifying approved applications was smaller!
 
 ## Dependencies
