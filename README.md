@@ -69,6 +69,13 @@ Run:
 jupyter notebook loan_approval.ipynb
 ```
 
+## Usage
+- run all cells top to bottom to load the data, clean it, and train both models
+- Scroll through the EDA plots to see what the data actually shows before the model touches it
+- check the confusion matrices and results table under Model Training and Evaluation
+- review the ranked feature importance chart under Feature Importance
+- run the cell under Try it yourself to enter your own applicant details and get a live prediction
+
 ## Known Limitations
 
 - The dataset is imbalanced (77.8% rejected vs. 22.2% approved), which is why accuracy alone isn’t trusted here; precision, recall, and F1 are tracked separately for that reason
