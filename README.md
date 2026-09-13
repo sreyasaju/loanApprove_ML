@@ -39,7 +39,7 @@ According to the results Random Forest performs better overall than the Logistic
 
 - F1 Score: RF 82.88% vs LR 75.95% ->  **+6.93 percentage points** 
 
-The  greatest improvement was in precision, where Random Forest performed 11.19 pp more than logistic regression 
+The  greatest improvement was in precision, where Random Forest performed 12.56 pp more than logistic regression 
 Random Forest showed a larger improvement in precision than recall. This means it made fewer incorrect approval predictions, while the improvement in identifying approved applications was smaller!
 
 ## Dependencies
